@@ -1,6 +1,5 @@
 import 'package:device_frame/device_frame.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 import 'button.dart';
 
@@ -85,12 +84,11 @@ class VirtualKeyboard extends StatelessWidget {
 class _VirtualKeyboard extends StatelessWidget {
   const _VirtualKeyboard({
     double? height,
-    this.spacing = 12,
   }) : height = height ?? minHeight;
 
   static const double minHeight = 214;
   final double height;
-  final double spacing;
+  final double spacing = 12;
 
   Widget _row(List<Widget> children) {
     return Padding(
