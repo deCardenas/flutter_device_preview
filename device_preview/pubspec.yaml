@@ -2,6 +2,7 @@ name: device_preview
 version: 1.0.1
 description: Approximate how your Flutter app looks and performs on another device.
 homepage: https://github.com/aloisdeniel/flutter_device_preview
+publish_to: "none"
 
 environment:
   sdk: ">=2.17.0-0 <3.0.0"
